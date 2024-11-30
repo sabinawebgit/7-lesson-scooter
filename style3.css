@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+.header-con-1{
+    display: flex;
+    gap: 20px;
+    transform: translateX(-300px);
+}
+.header-button{
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-button button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-family: Space mono;
+font-size: 15px;
+font-weight: 700;
+line-height: 25px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.card-2con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.header-img-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+.card-con-L h1 {
+    color: #495567;
+}
+.card-con-M p{
+    color: #495567;
+}
+.card-con-B{
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-con-B button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-family: Space mono;
+font-size: 15px;
+font-weight: 700;
+line-height: 25px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
